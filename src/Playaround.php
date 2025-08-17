@@ -6,7 +6,7 @@ class Playaround
 {
     public function merge($firstname, $secondname)
     {
-       return $firstname . ' ' . $secondname;
+        return $firstname.' '.$secondname;
     }
 
     public function upper($name)

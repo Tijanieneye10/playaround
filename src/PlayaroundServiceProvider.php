@@ -17,9 +17,9 @@ class PlayaroundServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('playaround');
-            // ->hasConfigFile()
-            // ->hasViews()
-            // ->hasMigration('create_playaround_table')
-            // ->hasCommand(PlayaroundCommand::class);
+        // ->hasConfigFile()
+        // ->hasViews()
+        // ->hasMigration('create_playaround_table')
+        // ->hasCommand(PlayaroundCommand::class);
     }
 }
