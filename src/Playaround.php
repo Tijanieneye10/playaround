@@ -8,4 +8,9 @@ class Playaround
     {
        return $firstname . ' ' . $secondname;
     }
+
+    public function upper($name)
+    {
+        return strtoupper($name);
+    }
 }
